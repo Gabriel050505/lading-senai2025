@@ -79,3 +79,35 @@ header nav ul li {
     margin-right: 175px;
     border-radius: 5px;
 }
+
+/* Primeira parte da página */
+
+main {
+    background-image: url(../assets/imagem-fundo-banner.jpg);
+    align-content: center;
+    text-align: center;
+    height: 130vh;
+}
+
+main #container1 ul {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#underline {
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+#mouse {
+    margin-top: 40px;
+    width: 60px;
+
+}
