@@ -209,3 +209,12 @@ section {
     border-radius: 10px;
     height: 250px;
 }
+
+
+/* Footer (Rodapé) */
+footer {
+    background-color: var(--cor-primaria);
+    text-align: center;
+    align-content: center;
+    height: 10vh;
+}
