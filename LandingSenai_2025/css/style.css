@@ -142,3 +142,70 @@ section {
 #container2 {
     display: flex;
 }
+
+/* Terceira parte da página */
+
+#container3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#section2 #container3 ul {
+    background-color: var(--fundo-marrom-claro);
+    border-radius: 5px;
+    padding: 15px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info {
+    background-color: var(--fundo-escuro);
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+#local {
+    margin-left: 325px;
+}
+
+#desafios {
+    margin-right: 325px;
+}
+
+#local2 {
+    padding: 15px 40px 15px 40px;
+}
+
+#duracao2 {
+    padding: 15px 50px 15px 50px;
+}
+
+#desafios2 {
+    padding: 15px 30px 15px 30px;
+}
+
+#endereco {
+    margin-top: 75px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+#container4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container4 ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+#container4 img {
+    border-radius: 10px;
+    height: 250px;
+}
