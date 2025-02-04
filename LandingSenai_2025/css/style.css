@@ -1,0 +1,28 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+:root {
+    --cor-primaria: #F9003D; /* Vermelho SENAI */
+    --cor-secundaria: #A259F7; /* Roxo SENAI */
+    --cor-destaque: #FFAF00; /* Amarelo SENAI */
+    --fundo-escuro: #080324; /* Fundo escuro */
+    --fundo-marrom: #181012; /* Fundo marrom */
+    --fundo-marrom-claro: #241a1b; /* Fundo marrom claro */
+    --texto-claro: #FFFFFF; /* Texto branco */
+    --texto-cinza: #C7BAB3; /* Texto cinza */
+}
+
+body {
+    background-color: var(--fundo-escuro);
+    color: var(--texto-claro);
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1.6;
+    font-size: 18px; /* Tamanho da fonte base aumentado */
+}
+
+/* Construir CSS restante (Aqui) */
