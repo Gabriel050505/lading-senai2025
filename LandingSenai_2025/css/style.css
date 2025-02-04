@@ -26,3 +26,56 @@ body {
 }
 
 /* Construir CSS restante (Aqui) */
+
+/* Header (Cabeçalho) */
+
+.txtamarelo {
+    color: var(--cor-destaque)
+}
+
+.txtvermelho {
+    color: var(--cor-primaria);
+}
+
+.txtcinza {
+    color: var(--texto-cinza);
+}
+
+header {
+    background-color: var(--cor-primaria);
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav, ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: var(--texto-claro);
+}
+
+header nav ul li {
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+#senai {
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin-top: 14px;
+    margin-left: 175px;
+}
+
+#contatenos {
+    background-color: var(--cor-secundaria);
+    margin-right: 175px;
+    border-radius: 5px;
+}
